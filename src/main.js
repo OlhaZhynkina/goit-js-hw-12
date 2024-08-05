@@ -5,8 +5,8 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { getPhotos, perPage } from './js/pixabay-api';
 import { imagesMarkup } from './js/render-functions';
 import iconError from './img/error.svg';
-import iconCaution from './img/caution.svg';
 import iconSuccess from './img/success.svg';
+import iconCaution from './img/caution.svg';
 
 const formElement = document.querySelector('.js-form');
 const ulElement = document.querySelector('.js-gallery-list');
