@@ -13,7 +13,7 @@ export default defineConfig(({ command }) => {
       sourcemap: true,
 
       rollupOptions: {
-        input: fg.sync('./src/*.html'), // Используем fast-glob для поиска файлов
+        input: fg.sync('./src/*.html'),
         output: {
           manualChunks(id) {
             if (id.includes('node_modules')) {
